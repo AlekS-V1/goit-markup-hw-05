@@ -70,7 +70,7 @@
           <h1 class="hero-image-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="button-hero" type="button">Order Service</button>
+          <button class="button" type="button">Order Service</button>
         </div>
       </section>
 
@@ -439,6 +439,62 @@
       </section>
     </main>
 
+    <!-- Modal window for order service -->
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal-close" type="button">
+          <svg class="icon-close" width="32" height="32">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form" autocomplete="off">
+          <label class="modal-label">
+            Name
+            <svg class="icon-modal" height="12" width="12">
+              <use href="./images/icons.svg#person"></use>
+            </svg>
+            <input class="modal-input" type="text" name="name" required />
+          </label>
+          <label class="modal-label">
+            Phone
+            <svg class="icon-modal" height="13" width="13">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
+            <input class="modal-input" type="text" name="phone" required />
+          </label>
+          <label class="modal-label">
+            Email
+            <svg class="icon-modal" height="16" width="16">
+              <use href="./images/icons.svg#email"></use>
+            </svg>
+            <input class="modal-input" type="text" name="email" required />
+          </label>
+          <label class="modal-label">
+            Comment
+            <textarea
+              class="comment-input"
+              type="text"
+              name="comment"
+              rows="5"
+              cols="5"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="modal-checkbox-label">
+            <input class="checkbox" type="checkbox" name="checkbox" />
+            I accept the terms and conditions of the
+            <a class="police-link" href="">Privacy Policy</a>
+          </label>
+          <button class="button modal-button" type="button" name="modal-btn">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+
     <!-- Footer content -->
 
     <footer class="ftr">
@@ -487,6 +543,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe">
+          <!-- Form subscribe -->
+
+          <form class="subscribe-form" autocomplete="off">
+            <label class="subscribe-text"
+              >Subscribe
+              <input
+                class="subscribe-input"
+                type="email"
+                name="email-subscribe"
+                placeholder="Email"
+                required
+            /></label>
+            <button class="subscribe-button" type="submit" name="subscribe-btn">
+              Subscribe<span class="subscribe-icon">
+                <svg class="icon" height="24" width="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
