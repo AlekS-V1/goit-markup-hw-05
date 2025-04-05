@@ -512,7 +512,7 @@ button {
 .icon-modal {
   position: absolute;
   top: 50%;
-  left: 19px;
+  left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -532,6 +532,7 @@ button {
   height: 40px;
   padding-left: 38px;
   outline: transparent;
+  background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-comment {
@@ -541,7 +542,7 @@ button {
 .comment-input {
   font-weight: 400;
   font-size: 12px;
-  line-height 1.17;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -579,8 +580,10 @@ button {
   justify-content: center;
   align-items: center;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-checkbox-label {
@@ -618,9 +621,7 @@ button {
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.icon-check {
 
-}
 /* Footer */
 
 footer {
