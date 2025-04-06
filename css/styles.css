@@ -531,6 +531,10 @@ footer {
   fill: #ffffff;
   margin-left: 16px;
 }
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #31d0aa;
+}
 
 /* Modal overlay */
 
